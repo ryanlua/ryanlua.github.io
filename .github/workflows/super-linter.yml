@@ -28,7 +28,7 @@ jobs:
           fetch-depth: 0
 
       - name: Super-linter
-        uses: super-linter/super-linter/slim@7941ea856d37e96425e6dfdd9d44a39b10d32565 # x-release-please-version
+        uses: super-linter/super-linter/slim@188a10fdb3a991cc813af934f03c634e03c178bd # x-release-please-version
         env:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
