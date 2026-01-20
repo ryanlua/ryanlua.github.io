@@ -3,7 +3,7 @@
 }
 
 body {
-	margin: auto;
+	margin: 0 auto;
 	max-width: 600px;
 	padding: 30px;
 	background: #F9F5E9;
@@ -24,6 +24,11 @@ h6 {
 
 a {
 	color: inherit;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
 }
 
 ::selection {
