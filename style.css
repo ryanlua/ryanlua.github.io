@@ -1,13 +1,9 @@
-:root {
-	/* color-scheme: dark; */
-}
-
 body {
 	margin: 0 auto;
 	max-width: 600px;
 	padding: 30px;
-	background: #F9F5E9;
-	color: #333;
+	background: oldlace;
+	color: dimgray;
 	font-family: "Georgia", "Times New Roman", serif;
 }
 
@@ -18,7 +14,7 @@ h4,
 h5,
 h6 {
 	text-align: center;
-	color: #111;
+	color: black;
 	font-family: "Garamond", "Times New Roman", serif;
 }
 
