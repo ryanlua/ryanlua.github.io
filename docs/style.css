@@ -8,12 +8,12 @@ body {
 	margin: 0 auto;
 	font-family: "Georgia", "Times New Roman", serif;
 	line-height: 2;
-	color: dimgray;
-	background: oldlace;
+	color: light-dark(dimgray, lightgray);
+	background: light-dark(oldlace, #111);
 }
 
 b {
-	color: black;
+	color: light-dark(black, white);
 }
 
 a {
@@ -36,7 +36,8 @@ img {
 
 ::selection,
 mark {
-	background: #ffff0080;
+	color: inherit;
+	background: light-dark(#ffff0080, #ffff0040);
 }
 
 ul {
@@ -52,21 +53,4 @@ hr {
 	margin: 32px 0;
 	border: none;
 	border-top: 1px solid currentColor;
-}
-
-@media (prefers-color-scheme: dark) {
-	body {
-		color: lightgray;
-		background: #111;
-	}
-
-	b {
-		color: white;
-	}
-
-	::selection,
-	mark {
-		color: inherit;
-		background: #ffff0040;
-	}
 }
