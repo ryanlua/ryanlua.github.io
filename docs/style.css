@@ -59,6 +59,12 @@ figcaption {
 	text-align: center;
 }
 
+hr {
+	margin: 32px 0;
+	border: none;
+	border-top: 1px solid currentColor;
+}
+
 @media (prefers-color-scheme: dark) {
 	body {
 		color: #d0d0d0;
