@@ -4,7 +4,12 @@ body {
 	padding: 30px;
 	background: oldlace;
 	color: dimgray;
+	line-height: 2;
 	font-family: "Georgia", "Times New Roman", serif;
+}
+
+b {
+	color: black;
 }
 
 h1,
@@ -29,4 +34,8 @@ img {
 
 ::selection {
 	background: #ffff0080;
+}
+
+ul {
+	line-height: 1.5;
 }
