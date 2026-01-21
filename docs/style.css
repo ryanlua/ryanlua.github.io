@@ -12,37 +12,12 @@ body {
 	background: light-dark(oldlace, #111);
 }
 
-b {
-	color: light-dark(black, white);
-}
-
 a {
 	color: inherit;
 }
 
-nav {
-	text-align: center;
-}
-
-nav a {
-	margin: 0 8px;
-}
-
-img {
-	display: block;
-	max-width: 100%;
-	margin: 0 auto;
-}
-
-::selection,
-mark {
-	color: inherit;
-	background: light-dark(#ffff0080, #ffff0040);
-}
-
-ul {
-	line-height: 1.6;
-	list-style-type: square;
+b {
+	color: light-dark(black, white);
 }
 
 figcaption {
@@ -53,4 +28,29 @@ hr {
 	margin: 32px 0;
 	border: none;
 	border-top: 1px solid currentColor;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+mark,
+::selection {
+	color: inherit;
+	background: light-dark(#ffff0080, #ffff0040);
+}
+
+nav {
+	text-align: center;
+
+	& a {
+		margin: 0 8px;
+	}
+}
+
+nav ul {
+	line-height: 1.6;
+	list-style-type: square;
 }
