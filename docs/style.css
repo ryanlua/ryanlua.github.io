@@ -1,5 +1,10 @@
 :root {
+	--bg-color: light-dark(oldlace, #111);
+	--text-color: light-dark(dimgray, lightgray);
+	--hl-color: light-dark(#ffff0080, #ffff0040);
+	--emphasized-text-color: light-dark(black, white);
 	color-scheme: light dark;
+	scrollbar-color: var(--text-color) var(--bg-color);
 }
 
 body {
@@ -8,8 +13,8 @@ body {
 	margin: 0 auto;
 	font-family: "Georgia", "Times New Roman", serif;
 	line-height: 2;
-	color: light-dark(dimgray, lightgray);
-	background: light-dark(oldlace, #111);
+	color: var(--text-color);
+	background: var(--bg-color);
 }
 
 a {
@@ -17,7 +22,7 @@ a {
 }
 
 b {
-	color: light-dark(black, white);
+	color: var(--emphasized-text-color);
 }
 
 figcaption {
@@ -39,7 +44,7 @@ img {
 mark,
 ::selection {
 	color: inherit;
-	background: light-dark(#ffff0080, #ffff0040);
+	background: var(--hl-color);
 }
 
 nav {
