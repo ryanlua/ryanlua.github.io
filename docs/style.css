@@ -16,17 +16,6 @@ b {
 	color: black;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: "Garamond", "Times New Roman", serif;
-	color: black;
-	text-align: center;
-}
-
 a {
 	color: inherit;
 }
@@ -67,18 +56,12 @@ hr {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		color: #d0d0d0;
-		background: #1a1a1a;
+		color: lightgray;
+		background: #111;
 	}
 
-	b,
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		color: #ffffff;
+	b {
+		color: white;
 	}
 
 	::selection,
