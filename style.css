@@ -41,7 +41,9 @@ img {
 	max-width: 100%;
 }
 
-::selection {
+
+::selection,
+mark {
 	background: #ffff0080;
 }
 
