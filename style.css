@@ -1,7 +1,7 @@
 body {
 	margin: 0 auto;
-	max-width: 600px;
-	padding: 30px;
+	max-width: 512px;
+	padding: 8px 32px;
 	background: oldlace;
 	color: dimgray;
 	line-height: 2;
@@ -32,7 +32,7 @@ nav {
 }
 
 nav a {
-	margin: 0 10px;
+	margin: 0 8px;
 }
 
 img {
