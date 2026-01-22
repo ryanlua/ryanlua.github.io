@@ -29,6 +29,19 @@ figcaption {
 	text-align: center;
 }
 
+footer {
+	margin: 32px 0;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+
+	& a {
+		margin: 0 8px;
+	}
+}
+
 hr {
 	margin: 32px 0;
 	border: none;
@@ -45,14 +58,6 @@ mark,
 ::selection {
 	color: inherit;
 	background: var(--hl-color);
-}
-
-nav {
-	text-align: center;
-
-	& a {
-		margin: 0 8px;
-	}
 }
 
 nav ul {
