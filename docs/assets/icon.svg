@@ -1,5 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="104">
   <style>
+    path {
+      animation: fillIcon 2s;
+    }
+
+    @keyframes fillIcon {
+      from {
+        fill-opacity: 0;
+      }
+      to {
+        fill-opacity: 1;
+      }
+    }
+
     @media (prefers-color-scheme: dark) {
       path {
         fill: white;
