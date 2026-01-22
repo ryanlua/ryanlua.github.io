@@ -1,0 +1,61 @@
+:root {
+	--bg-color: light-dark(oldlace, #111);
+	--text-color: light-dark(dimgray, lightgray);
+	--hl-color: light-dark(#ffff0080, #ffff0040);
+	--emphasized-text-color: light-dark(black, white);
+	color-scheme: light dark;
+	scrollbar-color: var(--text-color) var(--bg-color);
+}
+
+body {
+	max-width: 512px;
+	padding: 8px 32px;
+	margin: 0 auto;
+	font-family: "Georgia", "Times New Roman", serif;
+	line-height: 2;
+	color: var(--text-color);
+	background: var(--bg-color);
+}
+
+a {
+	color: inherit;
+}
+
+b {
+	color: var(--emphasized-text-color);
+}
+
+figcaption {
+	text-align: center;
+}
+
+footer {
+	margin: 32px 0;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+
+	& a {
+		margin: 0 8px;
+	}
+}
+
+hr {
+	margin: 32px 0;
+	border: none;
+	border-top: 1px solid currentColor;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	margin: 1em auto;
+}
+
+mark,
+::selection {
+	color: inherit;
+	background: var(--hl-color);
+}

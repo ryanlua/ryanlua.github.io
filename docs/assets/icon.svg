@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="104">
+  <style>
+    path {
+      animation: fillIcon 2s;
+    }
+
+    @keyframes fillIcon {
+      from {
+        fill-opacity: 0;
+      }
+      to {
+        fill-opacity: 1;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      path {
+        fill: white;
+      }
+    }
+  </style>
+  <path d="M0 0v104h16V16h26c26 0 23 34 4 34H32l29 54h20L57 62c6-2 13-8 17-16l34 58h20V0h-16v79L62 0Z"/>
+</svg>
