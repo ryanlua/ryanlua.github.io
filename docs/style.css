@@ -59,8 +59,3 @@ mark,
 	color: inherit;
 	background: var(--hl-color);
 }
-
-nav ul {
-	line-height: 1.6;
-	list-style-type: square;
-}
