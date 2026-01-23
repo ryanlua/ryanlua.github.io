@@ -79,14 +79,14 @@ svg.signature path {
 
 @keyframes drawSignature {
 	0% {
-		stroke-dashoffset: 2315;
+		stroke-dashoffset: 6945;
 	}
-	33%,
-	66% {
-		stroke-dashoffset: 0;
+	25%,
+	75% {
+		stroke-dashoffset: 4630;
 	}
 	100% {
-		stroke-dashoffset: -2315;
+		stroke-dashoffset: 2315;
 	}
 }
 
