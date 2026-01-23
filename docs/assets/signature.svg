@@ -6,7 +6,7 @@
 
     path {
       animation: drawSignature 12s infinite;
-      stroke: black;
+      stroke: light-dark(black, white);
       stroke-dasharray: 2315;
       stroke-width: 4;
     }
@@ -20,12 +20,6 @@
       }
       100% {
         stroke-dashoffset: -2315;
-      }
-    }
-
-    @media (prefers-color-scheme: dark) {
-      path {
-        stroke: white;
       }
     }
   </style>

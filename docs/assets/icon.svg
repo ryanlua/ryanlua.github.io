@@ -6,6 +6,7 @@
 
     path {
       animation: fillIcon 2s;
+      fill: light-dark(black, white);
     }
 
     @keyframes fillIcon {
@@ -14,12 +15,6 @@
       }
       to {
         fill-opacity: 1;
-      }
-    }
-
-    @media (prefers-color-scheme: dark) {
-      path {
-        fill: white;
       }
     }
   </style>
