@@ -42,13 +42,15 @@ header {
 	}
 }
 
+footer,
 hr {
 	margin: 32px 0;
 	border: none;
 	border-top: 1px solid currentColor;
 }
 
-img {
+img,
+svg {
 	display: block;
 	max-width: 100%;
 	margin: 1em auto;
@@ -58,11 +60,6 @@ mark,
 ::selection {
 	color: inherit;
 	background: var(--hl-color);
-}
-
-svg {
-	display: block;
-	margin: 1em auto;
 }
 
 svg.icon path {
