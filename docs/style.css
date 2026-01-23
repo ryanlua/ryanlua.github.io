@@ -59,3 +59,42 @@ mark,
 	color: inherit;
 	background: var(--hl-color);
 }
+
+svg {
+	display: block;
+	margin: 1em auto;
+}
+
+svg.icon path {
+	fill: var(--emphasized-text-color);
+	animation: fillIcon 2s;
+}
+
+svg.signature path {
+	stroke: var(--emphasized-text-color);
+	stroke-width: 4;
+	stroke-dasharray: 2315;
+	animation: drawSignature 12s infinite;
+}
+
+@keyframes drawSignature {
+	0% {
+		stroke-dashoffset: 2315;
+	}
+	33%,
+	66% {
+		stroke-dashoffset: 0;
+	}
+	100% {
+		stroke-dashoffset: -2315;
+	}
+}
+
+@keyframes fillIcon {
+	from {
+		fill-opacity: 0;
+	}
+	to {
+		fill-opacity: 1;
+	}
+}
