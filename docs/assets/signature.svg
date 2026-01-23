@@ -1,5 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="626" height="216" fill="none">
   <style>
+    :root {
+      color-scheme: light dark;
+    }
+
     path {
       animation: drawSignature 12s infinite;
       stroke: black;
