@@ -12,6 +12,6 @@
 	},
 	"author": "Ryan Luu <ryan.luu@ryanluu.dev>",
 	"devDependencies": {
-		"@biomejs/biome": "2.3.12"
+		"@biomejs/biome": "2.3.13"
 	}
 }
