@@ -9,4 +9,6 @@ Source code for my personal website at [ryanluu.dev](https://ryanluu.dev). Compl
 * SVG and AVIF for images
 * Web safe fonts
 
+![Screenshot of ryanluu.dev](assets/screenshot.png)
+
 You can find the source code in the [`docs`](docs) directory. The site is hosted using [GitHub Pages](http://pages.github.com). Biome is used for linting and formatting.
