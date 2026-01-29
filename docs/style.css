@@ -2,7 +2,7 @@
 	--bg-color: light-dark(oldlace, #111);
 	--text-color: light-dark(dimgray, lightgray);
 	--hl-color: light-dark(#ffff0080, #ffff0040);
-	--emphasized-text-color: light-dark(black, white);
+	--emphasized-color: light-dark(black, white);
 	color-scheme: light dark;
 	scrollbar-color: var(--text-color) var(--bg-color);
 }
@@ -21,14 +21,6 @@ a {
 	color: inherit;
 }
 
-b {
-	color: var(--emphasized-text-color);
-}
-
-figcaption {
-	text-align: center;
-}
-
 footer {
 	margin: 32px 0;
 	text-align: center;
@@ -42,14 +34,12 @@ header {
 	}
 }
 
-footer,
-hr {
+footer {
 	margin: 32px 0;
 	border: none;
 	border-top: 1px solid currentColor;
 }
 
-img,
 svg {
 	display: block;
 	max-width: 100%;
@@ -63,12 +53,12 @@ mark,
 }
 
 svg.icon path {
-	fill: var(--emphasized-text-color);
+	fill: var(--emphasized-color);
 	animation: fillIcon 2s;
 }
 
 svg.signature path {
-	stroke: var(--emphasized-text-color);
+	stroke: var(--emphasized-color);
 	stroke-width: 4;
 	stroke-dasharray: 2315;
 	animation: drawSignature 12s infinite;
