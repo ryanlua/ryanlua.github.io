@@ -21,6 +21,14 @@ a {
 	color: inherit;
 }
 
+b {
+	color: var(--emphasized-color);
+}
+
+figcaption {
+	text-align: center;
+}
+
 footer {
 	margin: 32px 0;
 	text-align: center;
@@ -34,12 +42,14 @@ header {
 	}
 }
 
-footer {
+footer,
+hr {
 	margin: 32px 0;
 	border: none;
 	border-top: 1px solid currentColor;
 }
 
+img,
 svg {
 	display: block;
 	max-width: 100%;
