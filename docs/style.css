@@ -1,0 +1,87 @@
+:root {
+	--bg-color: light-dark(oldlace, #111);
+	--text-color: light-dark(dimgray, lightgray);
+	--hl-color: light-dark(#ffff0080, #ffff0040);
+	--emphasized-color: light-dark(black, white);
+	color-scheme: light dark;
+	scrollbar-color: var(--text-color) var(--bg-color);
+}
+
+body {
+	max-width: 512px;
+	padding: 8px 32px;
+	margin: 0 auto;
+	font-family: "Georgia", "Times New Roman", serif;
+	line-height: 2;
+	color: var(--text-color);
+	background: var(--bg-color);
+}
+
+a {
+	color: inherit;
+}
+
+footer {
+	margin: 32px 0;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+
+	& a {
+		margin: 0 8px;
+	}
+}
+
+footer {
+	margin: 32px 0;
+	border: none;
+	border-top: 1px solid currentColor;
+}
+
+svg {
+	display: block;
+	max-width: 100%;
+	margin: 1em auto;
+}
+
+mark,
+::selection {
+	color: inherit;
+	background: var(--hl-color);
+}
+
+svg.icon path {
+	fill: var(--emphasized-color);
+	animation: fillIcon 2s;
+}
+
+svg.signature path {
+	stroke: var(--emphasized-color);
+	stroke-width: 4;
+	stroke-dasharray: 2315;
+	animation: drawSignature 12s infinite;
+}
+
+@keyframes drawSignature {
+	0% {
+		stroke-dashoffset: 6945;
+	}
+	25%,
+	75% {
+		stroke-dashoffset: 4630;
+	}
+	100% {
+		stroke-dashoffset: 2315;
+	}
+}
+
+@keyframes fillIcon {
+	from {
+		fill-opacity: 0;
+	}
+	to {
+		fill-opacity: 1;
+	}
+}
